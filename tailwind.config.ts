@@ -1,16 +1,18 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}", "./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        // downloaded fonts
+        edition: ['"Edition"', "sans-serif"],
+        ogg: ['"Ogg"', "sans-serif"],
+        // imported fonts
+        'zen-old-mincho': ['"Zen Old Mincho"', "sans-serif"],
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'the-usual-suspects-top': 'url(/top.jpeg)'
       },
     },
     colors: {
@@ -41,6 +43,7 @@ const config: Config = {
       },
       yellow: {
         100: "#CDC8BC",
+        200: "#EAE5DD",
       },
     },
   },
