@@ -12,7 +12,7 @@ const config: Config = {
         'zen-old-mincho': ['"Zen Old Mincho"', "sans-serif"],
       },
       backgroundImage: {
-        'the-usual-suspects-top': 'url(/top.jpeg)'
+        'the-usual-suspects-top': 'url(/imgs/top.jpeg)'
       },
     },
     colors: {
