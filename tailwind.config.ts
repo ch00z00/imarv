@@ -34,16 +34,10 @@ const config: Config = {
         100: "#EDF2F6",
         200: "#1F3250",
       },
-      green: {
-        100: "#415245",
-        200: "#747C16",
-      },
-      orange: {
-        100: "#EF3E1D",
-      },
       yellow: {
         100: "#CDC8BC",
         200: "#EAE5DD",
+        300: "#DDD6C7"
       },
     },
   },
