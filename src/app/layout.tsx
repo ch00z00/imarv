@@ -20,7 +20,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Syne:wght@800&family=Zen+Old+Mincho:wght@500;900&display=swap" rel="stylesheet" />
       </head>
       <body className="m-0 bg-black-100">
-        <header className="top-0 w-screen fixed h-[min(12vh)] text-yellow-200 px-[min(6vw)] z-20 flex items-center justify-between text-[min(3vw,24px)]">
+        <header className="top-0 w-screen fixed h-[min(12vh)] text-yellow-200 px-[min(6vw)] z-20 flex items-center justify-between text-[min(1.5vw)]">
           <button
             type="button"
             className="relative inline-flex items-center justify-start overflow-hidden font-ogg tracking-wider font-semibold"
