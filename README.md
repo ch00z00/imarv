@@ -1,4 +1,4 @@
-# imarv
+![alt text](/public/imgs/logo.png)
 This is a film blog site dedicated to indie(independent) films.
 こちらはインディーズ映画に全身全霊を捧げるブログサイトです。
 
