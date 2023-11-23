@@ -1,3 +1,4 @@
 export const DESCRIPTION = "This is a film blog site dedicated to marvelous indie(independent) films."
 export const HOME_DESCRIPTION = "A film blog dedicated to marvelous indie(independent) films."
 export const INTRODUCTION = "imarv is a blog site that offers a fresh perspective on the charm of indie films. While introducing the captivating world of independent cinema, it allows you to appreciate their uniqueness and surprises. We delve into the latest film works and highlight notable creators, sharing this information with fellow movie enthusiasts."
+export const TRAILER_01 = "https://www.youtube.com/watch?v=oiXdPolca5w"

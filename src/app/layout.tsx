@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import './globals.css'
-import { DESCRIPTION } from "./const";
 import Link from "next/link";
+import { DESCRIPTION } from "./const";
+import './globals.css'
+
 
 export const metadata: Metadata = {
   title: "imarv",
@@ -13,6 +14,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
   return (
     <html lang="en">
       <head>
@@ -31,7 +33,9 @@ export default function RootLayout({
             <path className="fill-yellow-200" d="M18.25 26.805L22.535 45L26.79 26.775L45 22.525L26.765 18.23L22.51 0L18.215 18.255L0 22.545L18.25 26.805Z"></path>
           </svg>
         </header>
-        {children}
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
